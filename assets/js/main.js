@@ -104,13 +104,7 @@ function jobTemplate(job) {
                         <h2 class="m-0 mb-3 py-0 text-4xl font-bold card-title">${job.name}
                         <label for="job-info${job.jobId}" class="btn btn-xs btn-outline btn-primary btn-square float-right">X</label></h2> 
                           <div class="space-x-2 card-actions">
-                            <span style="
-                            display:inline-block;
-                            white-space: nowrap;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                            max-width: 5px;">${job.company}</span>
-                            
+                            <div class="badge badge-ghost truncate">${job.company}</div> 
                             <div class="badge badge-ghost">${job.jobType}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
                           </div> 
