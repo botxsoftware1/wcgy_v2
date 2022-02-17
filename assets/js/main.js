@@ -109,7 +109,7 @@ function jobTemplate(job) {
                             white-space: nowrap;
                             overflow: hidden;
                             text-overflow: ellipsis;
-                            max-width: 13ch;">${job.company}</div> 
+                            max-width: 5ch;">${job.company}</div> 
                             <div class="badge badge-ghost">${job.jobType}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
                           </div> 
