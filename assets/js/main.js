@@ -108,8 +108,8 @@ function jobTemplate(job) {
                             <div class="badge badge-ghost">${job.jobType}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
                           </div> 
-                          <div class="space-x-2 card-actions " id="myl">
-                            <div class="badge badge-ghost">${job.locationPlace}, ${job.locationCountryCode}</div>
+                          <div class="space-x-2 card-actions">
+                            <div class="badge badge-ghost"id="myl">${job.locationPlace}, ${job.locationCountryCode}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
                           </div>
