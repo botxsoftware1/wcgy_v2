@@ -46,7 +46,7 @@ function jobTemplate(job) {
                         &nbsp;&nbsp;&nbsp;&nbsp; <span class="float-right bg-gray-100 text-gray-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">Job ID: ${job.jobId}</span></div>
                       <div class="flex-auto text-gray-500 my-1">
                         <span class="mr-3 ">${job.company}</span><span
-                          class="mr-3 border-r border-gray-200  max-h-0"></span><span class="truncate ...">${job.locationPlace}, ${job.locationCountryCode}</span>
+                          class="mr-3 border-r border-gray-200  max-h-0 truncate ...">${job.locationPlace}, ${job.locationCountryCode}</span>
                       </div>
                     </div>
                   </div>
