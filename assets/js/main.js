@@ -104,11 +104,11 @@ function jobTemplate(job) {
                         <h2 class="m-0 mb-3 py-0 text-4xl font-bold card-title">${job.name}
                         <label for="job-info${job.jobId}" class="btn btn-xs btn-outline btn-primary btn-square float-right">X</label></h2> 
                           <div class="space-x-2 card-actions">
-                            <div class="badge badge-ghost truncate...">${job.company}</div> 
+                            <div class="badge badge-ghost">${job.company}</div> 
                             <div class="badge badge-ghost">${job.jobType}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
                           </div> 
-                          <div class="space-x-2 card-actions">
+                          <div class="space-x-2 card-actions " id="myl">
                             <div class="badge badge-ghost">${job.locationPlace}, ${job.locationCountryCode}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
                             <div class="badge badge-ghost">${job.jobKind}</div>
@@ -215,3 +215,10 @@ const apply = (event) => {
   }
 };
 
+var i;
+var divs = document.getElementById('myl');
+for(i=0;i<divs.length;i++) {
+  if(divs[i].className == 'myclass') {
+    divs[i].innerHTML = divs[i].innerHTML.substring(0,10);
+  }
+}
